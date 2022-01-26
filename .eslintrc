@@ -1,0 +1,19 @@
+// .eslintrc
+// Gatsby's required rules
+{
+    "plugins": [
+        "jsx-a11y"
+    ],
+    "extends": [
+        "plugin:jsx-a11y/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+    }
+}
