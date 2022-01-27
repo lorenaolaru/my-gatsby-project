@@ -9,7 +9,7 @@ const IndexPage = () => {
       <h1>We have two types of cards!</h1>
       <p>You can hoose between the two from the navigation tab.</p>
       <p>
-        Helloooooooooooooooooo
+        Helloooooooooooooooooo??? Does it wok?
       </p>
     </Layout>
   )
