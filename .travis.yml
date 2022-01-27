@@ -6,6 +6,7 @@ node_js:
 cache:
   directories:
   - node_modules
+script: 'true'
 deploy:
   provider: script
   script: "npm run deploy"
