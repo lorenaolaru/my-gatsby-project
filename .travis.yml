@@ -5,8 +5,9 @@ cache:
   directories:
   - node_modules
 deploy:
-  provider: pages
-  script: cd docs/ && yarn install && yarn run deploy
+  provider: script
+  script:
+  - cd docs/ && yarn install && yarn run deploy
   skip_cleanup: true
   github_token: $GH_TOKEN
   on:
