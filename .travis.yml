@@ -6,11 +6,10 @@ node_js:
 cache:
   directories:
   - node_modules
-script: 'true'
+script: 
+  - npm run deploy
 deploy:
   provider: script
-  script:
-  - cd docs/ && yarn install && yarn run deploy
   skip_cleanup: true
   github_token: $GH_TOKEN
   on:
