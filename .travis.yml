@@ -8,7 +8,5 @@ deploy:
  # Note: change "docs" to the directory where your gatsby-site lives, if necessary
  script: cd docs/ && yarn install && yarn run deploy
  skip_cleanup: true
- github-token: $GH_TOKEN
- target_branch: gh-pages
  on:
 branch: main
