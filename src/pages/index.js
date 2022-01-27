@@ -10,6 +10,7 @@ const IndexPage = () => {
       <p>You can hoose between the two from the navigation tab.</p>
       <p>
         Helloooooooooooooooooo??? Does it wok?This is what the new script does!!!
+        Why don't you start!!!!
       </p>
     </Layout>
   )
