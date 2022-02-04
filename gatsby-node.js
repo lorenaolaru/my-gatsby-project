@@ -5,7 +5,7 @@ exports.sourceNodes = async ({ actions }) => {
   const { createNode } = actions;
 
   // fetch raw data from the randomuser api
-  const fetchRandomUser = () => axios.get(`https://demo1424441.mockable.io/eventGatsby`);
+  const fetchRandomUser = () => axios.get(`http://demo4074294.mockable.io/eventGatsby`);
   // await for results
   const res = await fetchRandomUser();
 

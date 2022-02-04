@@ -41,11 +41,6 @@ const Layout = ({ pageTitle, children }) => {
               Events from Api
             </Link>
           </li>
-          <li className={navLinkItem}>
-            <Link to="/blog" className={navLinkText}>
-              Blog
-            </Link>
-          </li>
         </ul>
       </nav>
       <main>

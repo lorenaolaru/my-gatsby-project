@@ -3,7 +3,7 @@ import { Col, Card, Image } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import JSONData from "../content/My-JSON-Content.json"
 
-const CustomGatsbyElement = () => {
+const GatsbyElement1 = () => {
     return (
             JSONData.map((data, index) => {
                 return <Col tabindex="0" md={6}>
@@ -31,7 +31,4 @@ const CustomGatsbyElement = () => {
     )
 }
 
-
-
-
-export default CustomGatsbyElement;
+export default GatsbyElement1;

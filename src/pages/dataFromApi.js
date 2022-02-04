@@ -1,16 +1,14 @@
 import * as React from 'react'
-import CustomGatsbyElement2 from "../components/CustomGatsbyElement2"
+import GatsbyElement2 from "../components/gatsby_element2"
 import Layout from '../components/layout'
 import { Container, Row } from 'react-bootstrap'
 
-// markup
-//src="../images/clifford.jpg"
 const DataFromApi = () => {
   return (
     <Layout>
       <Container>
         <Row>
-          <CustomGatsbyElement2/>
+          <GatsbyElement2/>
         </Row>
       </Container>
     </Layout>

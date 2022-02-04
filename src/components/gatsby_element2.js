@@ -3,7 +3,7 @@ import { Col, Card, Image } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { graphql, useStaticQuery } from 'gatsby';
 
-const CustomGatsbyElement2 = () => {
+const GatsbyElement2 = () => {
 
     const data = useStaticQuery(graphql`
     query {
@@ -45,19 +45,4 @@ const CustomGatsbyElement2 = () => {
 
 }
 
-export default CustomGatsbyElement2;
-
-/*export const query = graphql`
-query MyQuery {
-    allMyEvents {
-      edges {
-        node {
-          date(formatString: "MMMM DD, YYYY")
-          description
-          name
-          photo
-        }
-      }
-    }
-  }
-`;*/
+export default GatsbyElement2;
